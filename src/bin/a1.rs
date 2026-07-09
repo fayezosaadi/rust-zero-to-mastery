@@ -8,12 +8,14 @@
 // * Use a function to display your last name
 // * Use the println macro to display messages to the terminal
 
+// * Use a function to display your first name
 fn first_name() {
-    println!("First Name");
+    println!("Fayez");
 }
 
+// * Use a function to display your last name
 fn last_name() {
-    println!("Last Name");
+    println!("Saadi");
 }
 
 fn main() {
