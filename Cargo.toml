@@ -1,6 +1,12 @@
 [package]
 name = "rust-zero-to-mastery"
 version = "0.1.0"
+authors = ["Fay Saadi <faysaadi@pm.me>"]
 edition = "2024"
 
+[lib]
+name = "activity"
+path = "src/activitylib.rs"
+
 [dependencies]
+chrono = "0.4.45"
